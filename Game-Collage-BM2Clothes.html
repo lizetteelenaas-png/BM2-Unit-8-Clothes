@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>🖼️ Unit 9 Seasons </title>
+<title>🖼️ Unit 8 Clothes </title>
 <style>
 :root { --accent: #0077b6; --bg: url('PaisajeV.jpg') no-repeat center center fixed; }
 body { margin:0; font-family:"Comic Sans MS", cursive; background:var(--bg); display:flex; flex-direction:column; align-items:center; justify-content:flex-start; min-height:100vh; padding:18px; box-sizing:border-box; }
@@ -112,10 +112,10 @@ h1 { color:var(--accent); margin:0 0 12px 0; text-align:center; }
 
 <!-- Cover Page -->
 <div class="cover" id="cover">
-  <h1>🖼️ Unit 9 Seasons </h1>
+  <h1>🖼️ Unit 8 Clothes </h1>
   <p>Look at the word and click on the correct picture. You will create a collage!</p>
   <button class="btn" onclick="startGame()">Start Game</button>
-  <img src="osito.png" alt="teddy bear" class="cover-teddy">
+  <img src="conejito.png" alt="teddy bear" class="cover-teddy">
 </div>
 
 <!-- Game Page -->
@@ -131,22 +131,22 @@ h1 { color:var(--accent); margin:0 0 12px 0; text-align:center; }
   <div class="collage" id="finalCollage"></div>
   <div id="finalMessage">These are the images you selected. </div>
   <button class="btn" onclick="restart()">Play Again</button>
-  <img src="osito.png" alt="teddy bear" class="cover-teddy">
+  <img src="conejito.png" alt="teddy bear" class="cover-teddy">
 </div>
 
 <script>
 // Emotions and images
 const emotions = [
-  {name:"cloudy", img:"cloudy3.jpg", audio:"cloudy.mp3"},
-  {name:"rainy", img:"rainy3.jpg", audio:"rainy.mp3"},
-  {name:"sunny", img:"sunny3.jpg", audio:"sunny.mp3"},
-  {name:"windy", img:"windy3.jpg", audio:"windy.mp3"},
-  {name:"cloud", img:"cloud3.jpg", audio:"cloud.mp3"},
-  {name:"sun", img:"sun3.jpg", audio:"sun.mp3"},
-  {name:"rain", img:"rain3.jpg", audio:"rain.mp3"},
-  {name:"unicorn", img:"unicorn3.jpg", audio:"unicorn.mp3"},
-  {name:"umbrella", img:"umbrella.jpg", audio:"umbrella.mp3"},
-  {name:"u", img:"u3.jpg", audio:"u.mp3"}
+  {name:"shoes", img:"shoes4.jpg", audio:"shoes.mp3"},
+  {name:"sneakers", img:"sneakers4.jpg", audio:"sneakers.mp3"},
+  {name:"t-shirt", img:"t-shirt4.jpg", audio:"tshirt.mp3"},
+  {name:"hat", img:"hat4.jpg", audio:"hat.mp3"},
+  {name:"eight", img:"eight4.jpg", audio:"eight.mp3"},
+  {name:"nine", img:"nine4.jpg", audio:"nine.mp3"},
+  {name:"dirty", img:"dirty4.jpg", audio:"dirty.mp3"},
+  {name:"clean", img:"clean4.jpg", audio:"clean.mp3"},
+  {name:"mittens", img:"mittens4.jpg", audio:"mittens.mp3"},
+  {name:"monkey", img:"monkey4.jpg", audio:"monkey.mp3"}
 ];
 
 const allImages = emotions.map(e=>e.img);
@@ -258,6 +258,7 @@ function shuffle(array){
 
 </body>
 </html>
+
 
 
 
